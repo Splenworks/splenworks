@@ -1,8 +1,8 @@
 import { StrictMode } from "react"
 import ReactDOM from "react-dom/client"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import HomePage from "./HomePage.tsx"
-import GenAmznAffImgLinkPage from "./GenAmznAffImgLinkPage.tsx"
+import HomePage from "./Home/index.tsx"
+import GenAmznAffImgLinkPage from "./GenerateAmazonAffiliateImageLink/index.tsx"
 import "./index.css"
 
 const router = createBrowserRouter([
