@@ -24,7 +24,7 @@ function Page() {
 
       <div>
         <label>Description</label>
-        <TextInput placeholder="" />
+        <TextInput lines={3} />
       </div>
 
       <div>
