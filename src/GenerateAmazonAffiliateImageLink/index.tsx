@@ -8,38 +8,22 @@ function Page() {
         <h1 className="text-xl font-semibold text-center py-6">
           Generate Amazon Affiliate Image Link
         </h1>
-
-        <div>
+        <div
+          className="grid gap-4"
+          style={{ gridTemplateColumns: "10rem 1fr" }}
+        >
           <label>Text Link*</label>
           <TextInput placeholder="https://amzn.to/..." />
-        </div>
-
-        <div>
           <label>Product Image URL*</label>
           <TextInput placeholder="https://m.media-amazon.com/images/..." />
-        </div>
-
-        <div>
           <label>Title*</label>
           <TextInput placeholder="" />
-        </div>
-
-        <div>
           <label>Description</label>
           <TextInput lines={3} />
-        </div>
-
-        <div>
           <label>Price</label>
           <TextInput placeholder="" />
-        </div>
-
-        <div>
           <label>Reviews</label>
           <TextInput placeholder="" />
-        </div>
-
-        <div>
           <label>Rating</label>
           <TextInput placeholder="" />
         </div>
