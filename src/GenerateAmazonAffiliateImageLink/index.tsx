@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet-async"
 import InputField from "../shared/InputField"
+import Preview from "./Preview"
+import { sampleHtml } from "./sampleHtml"
 
 function Page() {
   return (
@@ -22,6 +24,9 @@ function Page() {
           <InputField placeholder="" label="Price" />
           <InputField placeholder="" label="Reviews" />
           <InputField placeholder="" label="Rating" />
+        </div>
+        <div>
+          <Preview html={sampleHtml} />
         </div>
       </div>
       <Helmet>
