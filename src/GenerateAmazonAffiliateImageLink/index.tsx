@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async"
-import TextInput from "../shared/TextInput"
+import InputField from "../shared/InputField"
 
 function Page() {
   return (
@@ -8,24 +8,20 @@ function Page() {
         <h1 className="text-xl font-semibold text-center py-6">
           Generate Amazon Affiliate Image Link
         </h1>
-        <div
-          className="grid gap-4"
-          style={{ gridTemplateColumns: "10rem 1fr" }}
-        >
-          <label>Text Link*</label>
-          <TextInput placeholder="https://amzn.to/..." />
-          <label>Product Image URL*</label>
-          <TextInput placeholder="https://m.media-amazon.com/images/..." />
-          <label>Title*</label>
-          <TextInput placeholder="" />
-          <label>Description</label>
-          <TextInput lines={3} />
-          <label>Price</label>
-          <TextInput placeholder="" />
-          <label>Reviews</label>
-          <TextInput placeholder="" />
-          <label>Rating</label>
-          <TextInput placeholder="" />
+        <div className="px-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <InputField
+            placeholder="https://amzn.to/..."
+            label="Affiliation Link*"
+          />
+          <InputField
+            placeholder="https://m.media-amazon.com/images/..."
+            label="Product Image URL*"
+          />
+          <InputField placeholder="Product Title" label="Product Title*" />
+          <InputField lines={3} label="Description" />
+          <InputField placeholder="" label="Price" />
+          <InputField placeholder="" label="Reviews" />
+          <InputField placeholder="" label="Rating" />
         </div>
       </div>
       <Helmet>
