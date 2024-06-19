@@ -10,10 +10,14 @@ const { affilationLink, imageUrl, title, description, rating, reviews } = {
 
 export const sampleHtml = `
 <div
-  className="py-5 px-8 md:px-5 bg-white flex flex-col gap-3 md:flex-row md:gap-6 cursor-pointer"
+  className="py-5 px-8 md:px-5 gap-3 md:flex-row md:gap-6"
+  style="all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;background:white"
   onClick={() => window.open(adItem.url, "_blank")}
 >
-  <div className="flex items-center justify-center">
+  <div
+    className="flex items-center justify-center"
+    style="all:unset;box-sizing:border-box;display:flex;justify-content:center;align-items:center;"
+  >
     <img
       src="${imageUrl}"
       alt="${title}"

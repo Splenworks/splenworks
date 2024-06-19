@@ -25,7 +25,7 @@ function Page() {
           <InputField placeholder="" label="Reviews" />
           <InputField placeholder="" label="Rating" />
         </div>
-        <div>
+        <div className="border border-black p-4 w-80 h-80">
           <Preview html={sampleHtml} />
         </div>
       </div>
