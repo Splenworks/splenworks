@@ -8,17 +8,17 @@ function Page() {
       </h1>
 
       <div>
-        <label>Text Link</label>
+        <label>Text Link*</label>
         <TextInput placeholder="https://amzn.to/..." />
       </div>
 
       <div>
-        <label>Product Image URL</label>
+        <label>Product Image URL*</label>
         <TextInput placeholder="https://m.media-amazon.com/images/..." />
       </div>
 
       <div>
-        <label>Title</label>
+        <label>Title*</label>
         <TextInput placeholder="" />
       </div>
 
@@ -29,6 +29,16 @@ function Page() {
 
       <div>
         <label>Price</label>
+        <TextInput placeholder="" />
+      </div>
+
+      <div>
+        <label>Reviews</label>
+        <TextInput placeholder="" />
+      </div>
+
+      <div>
+        <label>Rating</label>
         <TextInput placeholder="" />
       </div>
     </div>
