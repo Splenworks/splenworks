@@ -1,9 +1,11 @@
 import { Helmet } from "react-helmet-async"
 import InputField from "../shared/InputField"
 import Preview from "./Preview"
-import { sampleHtml } from "./sampleHtml"
+import { generateHtml } from "./generateHtml"
 
 function Page() {
+  const width = 240
+  const height = 320
   return (
     <>
       <div className="container max-w-4xl m-auto">
@@ -26,7 +28,17 @@ function Page() {
           <InputField placeholder="" label="Rating" />
         </div>
         <div className="border border-black p-4 w-60 h-80">
-          <Preview html={sampleHtml} />
+          <Preview
+            html={generateHtml({
+              width,
+              height,
+              textLink: "https://amzn.to/44VchvH",
+              imageUrl:
+                "https://m.media-amazon.com/images/I/81UUncqngWL._SL1500_.jpg",
+              title:
+                "Akira Toriyama's Manga Theater Hardcover - December 7, 2021",
+            })}
+          />
         </div>
       </div>
       <Helmet>
