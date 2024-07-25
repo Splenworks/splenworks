@@ -10,7 +10,7 @@
       src="https://plausible.io/js/script.js"
     ></script>
     <script>
-      if (window.location.hostname === "splenwork.com") {
+      if (window.location.hostname.toLowerCase().endsWith("splenwork.com")) {
         window.location.href = "https://splenworks.com"
       }
     </script>
