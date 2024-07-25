@@ -8,7 +8,7 @@ function Page() {
       <div className="m-auto flex-auto flex flex-col justify-start">
         <div className="flex-auto">
           <h1 className="text-2xl font-semibold my-4">
-            <span className="text-pink-900">Splen</span>Work
+            <span className="text-pink-900">Splen</span>Works
           </h1>
           <h2 className="font-semibold text-lg mt-6 mb-2">Our Products</h2>
           <ul className="list-disc pl-4">
@@ -26,19 +26,10 @@ function Page() {
               />
             </li>
           </ul>
-          <h2 className="font-semibold text-lg mt-6 mb-2">Tools</h2>
-          <ul className="list-disc pl-4">
-            <li>
-              <HyperLink
-                url="/generate-amazon-affiliate-image-link"
-                text="Generate Amazon Affiliate Image Link"
-              />
-            </li>
-          </ul>
         </div>
         <footer>
           <p className="text-sm left-0 right-0 bottom-0 py-4">
-            &copy; {currentYear} SplenWork Inc. All rights reserved.
+            &copy; {currentYear} SplenWorks Inc. All rights reserved.
           </p>
         </footer>
       </div>
