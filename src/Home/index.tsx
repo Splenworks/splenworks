@@ -6,29 +6,38 @@ function Page() {
   return (
     <div className="container m-auto p-4 h-lvh flex flex-col justify-start">
       <div className="m-auto flex-auto flex flex-col justify-start">
-        <div className="flex-auto">
-          <h1 className="text-2xl font-semibold my-4">
+        <div className="flex-auto flex flex-col">
+          <h1 className="text-2xl font-semibold my-4 mb-8 text-center">
             <span className="text-pink-900">Splen</span>Works
+            <span className="font-normal">&apos; Products</span>
           </h1>
-          <h2 className="font-semibold text-lg mt-6 mb-2">Our Products</h2>
-          <ul className="list-disc pl-4">
-            <li>
-              <HyperLink url="https://txtpad.io" text="txtpad.io" newTab />
-            </li>
-            <li>
-              <HyperLink url="https://splenview.com" text="SplenView" newTab />
-            </li>
-            <li>
-              <HyperLink
-                url="https://splenplayer.com"
-                text="SplenPlayer"
-                newTab
-              />
-            </li>
-          </ul>
+          <div className="flex-auto flex items-first">
+            <ul className="[&>li]:px-6 [&>li]:py-4">
+              <li>
+                <HyperLink url="https://txtpad.io" text="txtpad.io" newTab />
+                <p>Free online text editor. Write and save your notes online</p>
+              </li>
+              <li>
+                <HyperLink
+                  url="https://splenview.com"
+                  text="SplenView"
+                  newTab
+                />
+                <p>A simple image viewer like HoneyView but in the browser</p>
+              </li>
+              <li>
+                <HyperLink
+                  url="https://splenplayer.com"
+                  text="SplenPlayer"
+                  newTab
+                />
+                <p>A simple video/music player that can handle subtitles too</p>
+              </li>
+            </ul>
+          </div>
         </div>
         <footer>
-          <p className="text-sm left-0 right-0 bottom-0 py-4">
+          <p className="text-sm left-0 right-0 bottom-0 py-4 text-center">
             &copy; {currentYear} SplenWorks Inc. All rights reserved.
           </p>
         </footer>

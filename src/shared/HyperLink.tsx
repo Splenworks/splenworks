@@ -11,7 +11,7 @@ const HyperLink: React.FC<HyperLinkProps> = ({ url, text, newTab }) => {
     <a
       href={url}
       target={newTab ? "_blank" : "_self"}
-      className="text-pink-900 hover:underline hover:text-pink-700"
+      className="text-pink-900 hover:underline hover:text-pink-700 focus-within:outline-pink-700"
     >
       {text}
     </a>
