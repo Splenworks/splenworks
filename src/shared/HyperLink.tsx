@@ -22,7 +22,7 @@ const HyperLink: React.FC<HyperLinkProps> = ({
       target={newTab ? "_blank" : "_self"}
       className={twMerge(
         "text-pink-800 hover:underline hover:text-pink-600 focus-within:outline-pink-600",
-        disabled && "cursor-default hover:no-underline",
+        disabled && "cursor-default hover:no-underline hover:text-pink-800",
         className,
       )}
       onClick={(e) => {
