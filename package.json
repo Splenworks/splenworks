@@ -37,8 +37,6 @@
     "tailwindcss": "^3.3.6",
     "typescript": "^5.2.2",
     "vite": "^5.1.4",
-    "vite-plugin-commit-hash": "^1.0.5",
-    "vite-plugin-pwa": "^0.16.6",
     "vite-plugin-svgr": "^4.2.0"
   },
   "engines": {
