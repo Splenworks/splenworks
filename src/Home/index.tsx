@@ -4,7 +4,7 @@ function Page() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <div className="container m-auto p-4 h-lvh flex flex-col justify-start">
+    <div className="container m-auto p-4 h-screen flex flex-col justify-start">
       <div className="m-auto flex-auto flex flex-col justify-start">
         <div className="flex-auto flex flex-col">
           <h1 className="text-2xl font-semibold mt-8 mb-16 text-center">
