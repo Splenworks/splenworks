@@ -1,9 +1,19 @@
-<svg width="800" height="800" viewBox="0 0 24 24" class="prefix__prefix__icon prefix__prefix__glyph"
-  xmlns="http://www.w3.org/2000/svg">
-  <path
-    d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm2.71 10.71l-3 3a1 1 0 01-1.42 0 1 1 0 010-1.42l2.3-2.29-2.3-2.29a1 1 0 011.42-1.42l3 3a1 1 0 010 1.42z"
-    fill="#831843" />
-  <path
-    d="M10.553 15.812c-.343-.192-.485-.447-.485-.873 0-.284.173-.503 1.291-1.634L12.651 12l-1.292-1.305c-1.118-1.13-1.291-1.35-1.291-1.634 0-.44.146-.687.519-.88.55-.285.76-.148 2.616 1.72 1.57 1.578 1.746 1.791 1.746 2.1 0 .309-.176.52-1.754 2.102-1.87 1.875-2.089 2.017-2.642 1.709z"
-    fill="#fff" />
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#831843" />
+  <text x="32%" y="30%" font-family="monospace" font-size="90" fill="white" text-anchor="middle"
+    alignment-baseline="central" font-weight="bold">
+    S
+  </text>
+  <text x="68%" y="30%" font-family="monospace" font-size="90" fill="white" text-anchor="middle"
+    alignment-baseline="central" font-weight="bold">
+    P
+  </text>
+  <text x="32%" y="70%" font-family="monospace" font-size="90" fill="white" text-anchor="middle"
+    alignment-baseline="central" font-weight="bold">
+    L
+  </text>
+  <text x="68%" y="70%" font-family="monospace" font-size="90" fill="white" text-anchor="middle"
+    alignment-baseline="central" font-weight="bold">
+    N
+  </text>
 </svg>
