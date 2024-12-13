@@ -23,7 +23,8 @@ function Page() {
                   className=""
                 />
                 <p>
-                  Free online text editor. Write and save your notes online.
+                  Free online text editor. Write and save your documents online
+                  with the free AI feature.
                 </p>
               </li>
               <li>
@@ -40,9 +41,7 @@ function Page() {
                   text="SplenPlayer"
                   newTab
                 />
-                <p>
-                  A simple video/music player that can handle subtitles too.
-                </p>
+                <p>A simple video/music player that supports captions too.</p>
               </li>
               <li>
                 <HyperLink url="https://log4day.com" text="log4day" disabled />
