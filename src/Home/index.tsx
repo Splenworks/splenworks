@@ -51,7 +51,7 @@ function Page() {
           </div>
         </div>
         <footer>
-          <p className="text-sm left-0 right-0 bottom-0 py-8 text-center">
+          <p className="text-sm py-8 text-center">
             &copy; {currentYear} SplenWorks Inc. All rights reserved.
           </p>
         </footer>
