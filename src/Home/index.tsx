@@ -8,10 +8,7 @@ function Page() {
       <div className="m-auto flex-auto flex flex-col justify-start">
         <div className="flex-auto flex flex-col">
           <h1 className="text-2xl font-semibold mt-8 mb-16 text-center">
-            <span className="text-pink-900">Splen</span>Works
-            <span className="font-normal">
-              &apos; <i>Products</i>
-            </span>
+            <span className="text-pink-900">Splen</span>works
           </h1>
           <div className="flex-auto flex items-first">
             <ul className="[&>li]:px-6 [&>li]:py-4">
@@ -52,7 +49,7 @@ function Page() {
         </div>
         <footer>
           <p className="text-sm py-8 text-center">
-            &copy; {currentYear} SplenWorks Inc. All rights reserved.
+            &copy; {currentYear} Splenworks Inc. All rights reserved.
           </p>
         </footer>
       </div>
