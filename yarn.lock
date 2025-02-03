@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@alloc/quick-lru@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
-  integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
-
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.3.0.tgz#ed441b6fa600072520ce18b43d2c8cc8caecc7f4"
@@ -726,18 +721,6 @@
     "@tailwindcss/oxide-linux-x64-musl" "4.0.3"
     "@tailwindcss/oxide-win32-arm64-msvc" "4.0.3"
     "@tailwindcss/oxide-win32-x64-msvc" "4.0.3"
-
-"@tailwindcss/postcss@^4.0.0":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/postcss/-/postcss-4.0.3.tgz#2adac55fc0659020b76b8f2963a30aa2a06b2e38"
-  integrity sha512-qUyxuhuI2eTgRJ+qfCQRAr69Cw7BdSz+PoNFUNoRuhPjikNC8+sxK+Mi/chaXAXewjv/zbf6if6z6ItVLh+e9Q==
-  dependencies:
-    "@alloc/quick-lru" "^5.2.0"
-    "@tailwindcss/node" "^4.0.3"
-    "@tailwindcss/oxide" "^4.0.3"
-    lightningcss "^1.29.1"
-    postcss "^8.4.41"
-    tailwindcss "4.0.3"
 
 "@tailwindcss/vite@^4.0.3":
   version "4.0.3"
@@ -1857,7 +1840,7 @@ picomatch@^4.0.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.2.tgz#77c742931e8f3b8820946c76cd0c1f13730d1dab"
   integrity sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==
 
-postcss@^8.4.41, postcss@^8.4.49:
+postcss@^8.4.49:
   version "8.5.1"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.1.tgz#e2272a1f8a807fafa413218245630b5db10a3214"
   integrity sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==
