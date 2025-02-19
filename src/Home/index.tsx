@@ -7,18 +7,16 @@ function Page() {
     <div className="container m-auto p-4 h-dvh flex flex-col justify-start">
       <div className="m-auto flex-auto flex flex-col justify-start">
         <div className="flex-auto flex flex-col">
-          <h1 className="text-2xl font-semibold mt-8 mb-16 text-center">
+          <h1 className="text-2xl font-semibold mt-8 mb-2 text-center">
             <span className="text-pink-900">Splen</span>works
           </h1>
+          <h2 className="text-base text-center mb-8 text-gray-500">
+            We make commodity apps!
+          </h2>
           <div className="flex-auto flex items-first">
-            <ul className="[&>li]:px-6 [&>li]:py-4">
+            <ul className="[&>li]:px-6 [&>li]:py-4 text-gray-800">
               <li>
-                <HyperLink
-                  url="https://txtpad.io"
-                  text="txtpad.io"
-                  newTab
-                  className=""
-                />
+                <HyperLink url="https://txtpad.io" text="txtpad.io" newTab />
                 <p>
                   Free online text editor. Write and save your documents online
                   with the free AI feature.
@@ -48,7 +46,7 @@ function Page() {
           </div>
         </div>
         <footer>
-          <p className="text-sm py-8 text-center">
+          <p className="text-sm py-8 text-center text-gray-800">
             &copy; {currentYear} Splenworks Inc. All rights reserved.
           </p>
         </footer>
