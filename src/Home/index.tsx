@@ -7,7 +7,7 @@ function Page() {
     <div className="container m-auto p-4 h-dvh flex flex-col justify-start">
       <div className="m-auto flex-auto flex flex-col justify-start">
         <div className="flex-auto flex flex-col">
-          <h1 className="text-2xl font-semibold mt-8 mb-6 text-center">
+          <h1 className="text-2xl font-semibold mt-8 mb-2 text-center">
             <span className="text-pink-900">Splen</span>works
           </h1>
           <h2 className="text-base text-center mb-6 text-gray-500 italic">
