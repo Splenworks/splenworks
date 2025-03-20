@@ -13,7 +13,10 @@ function Page() {
             <h1 className="text-2xl font-semibold mt-8 mb-2 text-center">
               <span className="text-pink-900">Splen</span>works
             </h1>
-            <h2 className="text-base text-center mb-6 text-gray-500 italic">
+            <h2
+              className="text-base text-center mb-6 text-gray-500 italic"
+              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}
+            >
               We make commodity apps!
             </h2>
             <div className="flex-auto flex items-first">
