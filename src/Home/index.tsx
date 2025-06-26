@@ -17,7 +17,7 @@ function Page() {
               className="text-base text-center mb-6 text-gray-500 italic"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}
             >
-              We make commodity apps!
+              We build essential apps for the browser.
             </h2>
             <div className="flex-auto flex items-first">
               <ul className="[&>li]:px-6 [&>li]:py-4 text-gray-800">
