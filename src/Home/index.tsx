@@ -46,14 +46,6 @@ function Page() {
                   />
                   <p>A simple video/music player that supports captions too.</p>
                 </li>
-                <li>
-                  <HyperLink
-                    url="https://log4day.com"
-                    text="log4day"
-                    disabled
-                  />
-                  <p>Diary app in development.</p>
-                </li>
               </ul>
             </div>
           </div>
