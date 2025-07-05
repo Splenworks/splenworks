@@ -43,6 +43,16 @@ function Page() {
                   />
                   <p>A simple video/music player that supports captions too.</p>
                 </li>
+                <li>
+                  <HyperLink
+                    url="https://splensheet.com"
+                    text="SplenSheet"
+                    newTab
+                  />
+                  <p>
+                    A very simple spreadsheet editor in the browser.
+                  </p>
+                </li>
               </ul>
             </div>
           </div>
